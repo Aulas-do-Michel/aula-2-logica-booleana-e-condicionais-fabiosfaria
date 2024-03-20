@@ -82,6 +82,7 @@ Digite a frequencia alélica (em porcentagem): 100
 
 Resposta: Não é relevante.
 """
+
 frequencia_populacional = float(input("Digite a frequencia populacional (em porcentagem): "))
 gene = input("Digite o gene: ")
 impacto = input("Digite a Impacto (ALTO ou BAIXO) ")
