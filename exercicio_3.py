@@ -63,7 +63,6 @@ geneBRCA1 = cromossomo == "chr17"
 posicaohg19 = (posicao >= 41196312) and (posicao <= 41277500)
 posicaohg38 = (posicao >= 43044295) and (posicao <= 43125483)
 
-
 if geneBRCA1 and posicaohg19 and genomareferencia == "hg19":
     print("Sim")
 elif geneBRCA1 and posicaohg38 and genomareferencia == "hg38":
