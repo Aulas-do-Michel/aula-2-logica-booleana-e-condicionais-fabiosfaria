@@ -38,7 +38,6 @@ Sim
 
 """
 
-
 cromossomo = input("Digite o cromossomo: ")
 posicao = int(input("Digite a posição: "))
 geneBRCA17 = cromossomo == "chr17"
