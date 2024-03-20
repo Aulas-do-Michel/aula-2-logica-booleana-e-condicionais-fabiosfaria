@@ -37,3 +37,14 @@ Resposta:
 Sim
 
 """
+
+
+cromossomo = input("Digite o cromossomo: ")
+posicao = int(input("Digite a posição: "))
+geneBRCA17 = cromossomo == "chr17"
+posicaoBRC17 = (posicao >= 41196312) and (posicao <= 41277500)
+
+if geneBRCA17 and posicaoBRC17:
+    print("Sim")
+else:
+    print("Não")
